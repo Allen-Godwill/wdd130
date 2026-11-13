@@ -19,6 +19,10 @@ aside img {
 
 }
 
+aside img {
+    box-shadow: 15px;
+}
+
 p {
     padding: 0;
 }
