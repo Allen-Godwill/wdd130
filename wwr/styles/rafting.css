@@ -60,6 +60,7 @@ article {
     display: block;
     width: 100%;
     height: auto;
+    float: right;
 }
 
 h1 {
@@ -75,11 +76,17 @@ h1 {
 
 }
 
-article {
+.box {
     position: relativee;
+    background: #264653;
+    color: #fff;
 }
 
-article img {
+.box img {
     float: right;
-    width: 125px;
+    width: 200px;
+    height: 200px;
+
+    margin: 20px;
+    box-sizing: border-box;
 }
