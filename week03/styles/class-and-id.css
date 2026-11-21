@@ -33,23 +33,22 @@ code {
     background-color: #efefaa;
     border-radius: 25px;
     padding: 25px;
-}
 
-/* ID examples - should be unique */
+    /* ID examples - should be unique */
 
-#note {
-    background-color: #333;
-    color: white;
-    width: fit-content;
-}
+    #note {
+        background-color: #333;
+        color: white;
+        width: fit-content;
+    }
 
-#note code {
-    color: yellow;
-}
+    #note code {
+        color: yellow;
+    }
 
-#best-practice {
-    background: linear-gradient(135deg, #000 0%, #999 100%);
-    color: white;
-    border-radius: 20px;
-    padding: 20px;
-}
+    #best-practice {
+        background: linear-gradient(135deg, #000 0%, #999 100%);
+        color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
