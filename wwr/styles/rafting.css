@@ -57,13 +57,9 @@ article {
 }
 
 .hero img {
-    display: block;
+
     width: 100%;
     height: auto;
-    float: right;
-}
-
-.box article img {
     float: right;
 }
 
@@ -85,7 +81,7 @@ article {
 }
 
 .box {
-    position: relativee;
+    position: absolute;
     background: #264653;
     color: #fff;
 }
