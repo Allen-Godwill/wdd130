@@ -63,6 +63,10 @@ article {
     float: right;
 }
 
+.box article img {
+    float: right;
+}
+
 .hero h1 {
     position: absolute;
     top: 20px;
