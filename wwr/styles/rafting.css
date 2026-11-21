@@ -1,8 +1,6 @@
 :root {
     --primary-color: #055a05;
     /* forest green */
-    --secondary-color: #f4a261;
-    /* warm sand*/
     --accent1-color: #264653;
     /* dark slate blue*/
     --accent2-color: #e9c46a;
@@ -61,6 +59,7 @@ article {
     width: 100%;
     height: auto;
     float: right;
+    display: block;
 }
 
 .hero h1 {
@@ -76,14 +75,15 @@ article {
 
 }
 
-.hero article {
-    position: absolute;
-}
-
 .box {
     position: absolute;
     background: #264653;
     color: #fff;
+    margin-top: 500px;
+    width: 90%;
+    height: 500px;
+    padding: 20px;
+
 }
 
 .box img {
@@ -91,6 +91,10 @@ article {
     width: 200px;
     height: 200px;
 
-    margin: 20px;
     box-sizing: border-box;
+}
+
+.socialmedia {
+
+    margin-top: 400px;
 }
