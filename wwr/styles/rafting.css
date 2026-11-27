@@ -103,21 +103,20 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+
 }
 
 nav ul {
     display: flex;
-    flex-row: 1 / 4;
+
     list-style: none;
     gap: 15px;
     align-items: normal;
+    background-color: #13b9fa;
+    padding-left: 300px;
 
     text-align: center;
 
-}
-
-nav a {
-    text-decoration: none;
 }
 
 .section1 {
