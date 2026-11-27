@@ -101,19 +101,18 @@ article {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
 }
 
 nav ul {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-nav li {
+    flex-row: 1 / 4;
     list-style: none;
+    gap: 15px;
+    align-items: normal;
+
+    text-align: center;
 
 }
 
@@ -180,21 +179,23 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
+    padding: 10px;
     background-color: #d9c8f5;
-    min-height: 70px;
+    width: 1300px;
+    height: 100px;
 
 }
 
 footer p {
     flex: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .socialmedia {
     display: flex;
-    align-items: center;
-    gap: 15px
+    align-items: normal;
+    gap: 15px;
+    padding-bottom: 300px;
 }
 
 .socialmedia img {
